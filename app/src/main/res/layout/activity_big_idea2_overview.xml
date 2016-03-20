@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".Overview">
+
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/card_view_overview_text"
+            android:textColor="@color/colorPrimaryText"
+            android:paddingBottom="16dp"
+            android:textSize="16dp"
+            android:text="Living systems require free energy and matter to maintain order, grow
+and reproduce. Organisms employ various strategies to capture, use and
+store free energy and other vital resources. Energy deficiencies are not only
+detrimental to individual organisms; they also can cause disruptions at the
+population and ecosystem levels.\n\n
+Autotrophic cells capture free energy through photosynthesis and
+chemosynthesis. Photosynthesis traps free energy present in sunlight
+that, in turn, is used to produce carbohydrates from carbon dioxide.
+Chemosynthesis captures energy present in inorganic chemicals. Cellular
+respiration and fermentation harvest free energy from sugars to produce
+free energy carriers, including ATP. The free energy available in sugars
+drives metabolic pathways in cells. Photosynthesis and respiration are
+interdependent processes.
+\n\nCells and organisms must exchange matter with the environment. For
+example, water and nutrients are used in the synthesis of new molecules;
+carbon moves from the environment to organisms where it is incorporated
+into carbohydrates, proteins, nucleic acids or fats; and oxygen is necessary
+for more efficient free energy use in cellular respiration. Differences in
+surface-to-volume ratios affect the capacity of a biological system to obtain
+resources and eliminate wastes. Programmed cell death (apoptosis) plays a
+role in normal development and differentiation (e.g. morphogenesis).
+\n\nMembranes allow cells to create and maintain internal environments that
+differ from external environments. The structure of cell membranes results in
+selective permeability; the movement of molecules across them via osmosis,
+diffusion and active transport maintains dynamic homeostasis. In eukaryotes,
+internal membranes partition the cell into specialized regions that allow
+cell processes to operate with optimal efficiency. Each compartment or
+membrane-bound organelle enables localization of chemical reactions.
+\n\nOrganisms also have feedback mechanisms that maintain dynamic
+homeostasis by allowing them to respond to changes in their internal and
+external environments. Negative feedback loops maintain optimal internal
+environments, and positive feedback mechanisms amplify responses.
+Changes in a biological system’s environment, particularly the availability
+of resources, influence responses and activities, and organisms use various
+means to obtain nutrients and get rid of wastes. Homeostatic mechanisms
+across phyla reflect both continuity due to common ancestry and change
+due to evolution and natural selection; in plants and animals, defense
+mechanisms against disruptions of dynamic homeostasis have evolved.
+Additionally, the timing and coordination of developmental, physiological
+and behavioral events are regulated, increasing fitness of individuals and
+long-term survival of populations."
+            android:typeface="sans" />
+    </android.support.v7.widget.CardView>
+</ScrollView>

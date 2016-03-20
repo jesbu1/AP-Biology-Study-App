@@ -1,0 +1,176 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.ResultsOfSignaling$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text = "Evolution operates on genetic information that is passed to subsequent
+generations. However, transmission of nonheritable information also
+determines critical roles that influence behavior within and between
+cells, organisms and populations. These responses are dependent upon or
+influenced by underlying genetic information, and decoding in many cases is
+complex and affected by external conditions. For example, biological rhythms,
+mating behaviors, flowering, animal communications and social structures
+are dependent on and elicited by external signals and may encompass a range
+of responses and behaviors.
+\n\nOrgan systems have evolved that sense and process external information to
+facilitate and enhance survival, growth and reproduction in multicellular
+organisms. These include sensory systems that monitor and detect physical
+and chemical signals from the environment and other individuals in the
+population and that influence an animal’s well-being. The nervous system
+interacts with sensory and internal body systems to coordinate responses
+and behaviors, ranging from movement to metabolism to respiration. Loss
+of function and coordination within the nervous system often results in
+severe consequences, including changes in behavior, loss of body functions
+and even death.
+\n\nKnowledge and understanding of the structures and functions of
+the nervous system are needed to understand this coordination. The
+features of an animal’s nervous system are evolutionarily conserved,
+with the basic cellular structure of neurons the same across species. The
+physiological and cellular processes for signal formation and propagation
+involve specialized membrane proteins, signaling molecules and ATP.
+Neurological signals can operate and coordinate responses across
+significant distances within an organism. The brain serves as a master
+neurological center for processing information and directing responses,
+and different regions of the brain serve different functions. Structures
+and associated functions for animal brains are products of evolution, and
+increasing complexity follows evolutionary lines.
+\n\nPopulations of organisms exist in communities. Individual behavior influences
+population behavior, and both are the products of information recognition,
+processing and transmission. Communication among individuals within a
+population may increase the long-term success of the population. Cooperative
+behavior within a population provides benefits to the population and to the
+individuals within the population. Examples of benefits include protection
+from predators, acquisition of prey and resources, sexual reproduction,
+recognition of offspring and genetic relatedness, and transmission of learned
+responses.
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="a. Organisms exchange information with each other in response to
+internal changes and external cues, which can change behavior. Examples include:
+\n• Fight or flight response
+\n• Predator warnings
+\n• Protection of young
+\n• Plant-plant interactions due to herbivory
+\n• Avoidance responses
+\n\nb. Communication occurs through various mechanisms.
+\n1. Living systems have a variety of signal behaviors or cues that
+produce changes in the behavior of other organisms and can result
+in differential reproductive success. For example, flower coloration can trick bees into pollinating the flower instead of female bees, leading to the spread of the flower.
+\n2. Animals use visual, audible, tactile, electrical and chemical
+signals to indicate dominance, find food, establish territory and
+ensure reproductive success. Examples include:
+\n• Bee dances
+\n • Birds songs
+\n • Territorial marking in mammals
+\n • Pack behavior in animals
+\n • Herd, flock, and schooling behavior in animals
+\n • Predator warning
+\n • Colony and swarming behavior in insects
+\n • Coloration
+\n\nc. Responses to information and communication of information are
+vital to natural selection and evolution.
+\n1. Natural selection favors innate and learned behaviors that
+increase survival and reproductive fitness. Examples include:
+\n• Parent and offspring interactions
+\n• Migration patterns
+\n• Courtship and mating behaviors
+\n• Foraging in bees and other animals
+\n• Avoidance behavior to electric fences, poisons, or traps
+\n2. Cooperative behavior tends to increase the fitness of the
+individual and the survival of the population. Examples include:
+\n• Pack behavior in animals
+\n• Herd, flock and schooling behavior in animals
+\n• Predator warning
+\n• Colony and swarming behavior in insects
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. The neuron is the basic structure of the nervous system that reflects
+function.
+\n1. A typical neuron has a cell body, axon and dendrites. Many
+axons have a myelin sheath that acts as an electrical insulator.
+\n2. The structure of the neuron allows for the detection, generation,
+transmission and integration of signal information.
+\n3. Schwann cells, which form the myelin sheath, are separated by
+gaps of unsheathed axon over which the impulse travels as the
+signal propagates along the neuron.
+\n\nb. Action potentials propagate impulses along neurons.
+\n1. Membranes of neurons are polarized by the establishment of
+electrical potentials across the membranes.
+\n2. In response to a stimulus, Na+ and K+ gated channels
+sequentially open and cause the membrane to become locally
+depolarized.
+\n3. pumps, powered by ATP, work to maintain membrane
+potential.
+\n\nc. Transmission of information between neurons occurs across
+synapses.
+\n1. In most animals, transmission across synapses involves
+chemical messengers called neurotransmitters. Some neurotransmitters include (make sure you know the very basic functions of these):
+\n• Acetylcholine
+\n• Epinephrine
+\n• Norepinephrine
+\n• Dopamine
+\n• Serotonin
+\n• GABA
+\n2. Transmission of information along neurons and synapses
+results in a response.
+\n3. The response can be stimulatory or inhibitory.
+\n\nd. Different regions of the vertebrate brain have different functions.
+\n• Forebrain (cerebrum), midbrain (brainstem) and hindbrain
+(cerebellum)
+\n• Right and left cerebral hemispheres in humans"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

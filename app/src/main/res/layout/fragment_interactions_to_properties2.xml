@@ -1,0 +1,140 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.InteractionsToProperties2$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text = "a. Differentiation in development is due to external and internal cues
+that trigger gene regulation by proteins that bind to DNA.
+\n\nb. Structural and functional divergence of cells in development is due
+to expression of genes specific to a particular tissue or organ type.
+\n\nc. Environmental stimuli can affect gene expression in a mature cell.
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="a. Interactions and coordination between organs provide essential
+biological activities. Examples include:
+\n• Stomach and small intestines
+\n• Kidney and bladder
+\n• Root, stem and leaf
+\n\nb. Interactions and coordination between systems provide essential
+biological activities. Examples include:
+\n • Respiratory and circulatory
+\n • Nervous and muscular
+\n • Plant vascular and leaf
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. The structure of a community is measured and described in terms
+of species composition and species diversity.
+\n\nb. Mathematical or computer models are used to illustrate and
+investigate population interactions within and environmental
+impacts on a community. Examples include:
+\n• Predator/prey relationships spreadsheet model
+\n• Symbiotic relationship
+\n• Graphical representation of field data
+\n• Introduction of species
+\n• Global climate change models
+\n\nc. Mathematical models and graphical representations are used to
+illustrate population growth patterns and interactions.
+\n1. Reproduction without constraints results in the exponential
+growth of a population.
+\n2. A population can produce a density of individuals that exceeds
+the system’s resource availability.
+\n3. As limits to growth due to density-dependent and density-independent
+factors are imposed, a logistic growth model
+generally ensues.
+\n4. Demographics data with respect to age distributions and
+fecundity can be used to study human populations.
+"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Energy flows, but matter is recycled
+\n\nb. Changes in regional and global climates and in atmospheric
+composition influence patterns of primary productivity.
+\n\nc. Organisms within food webs and food chains interact.
+\n\nd. Food webs and food chains are dependent on primary productivity.
+\n\ne. Models allow the prediction of the impact of change in biotic and
+abiotic factors
+\n1. Competition for resources and other factors limits growth and
+can be described by the logistic model.
+\n2. Competition for resources, territoriality, health, predation,
+accumulation of wastes and other factors contribute to density-dependent
+population regulation.
+\n\nf. Human activities impact ecosystems on local, regional and global
+scales.
+\n1. As human populations have increased in numbers, their impact
+on habitats for other species have been magnified.
+\n2. In turn, this has often reduced the population size of the
+affected species and resulted in habitat destruction and, in some
+cases, the extinction of species.
+\n\ng. Many adaptations of organisms are related to obtaining and using
+energy and matter in a particular environment.
+"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

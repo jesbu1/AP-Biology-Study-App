@@ -1,0 +1,247 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.DnaAndRna$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text = "The organizational basis of all living systems is heritable information. The
+proper storage and transfer of this information are critical for life to continue
+at the cell, organism and species levels. Reproduction occurs at the cellular
+and organismal levels. In order for daughter cells to continue subsequent
+generational cycles of reproduction or replication, each progeny needs
+to receive heritable genetic instructions from the parental source. This
+information is stored and passed to the subsequent generation via DNA.
+Viruses, as exceptional entities, can contain either DNA or RNA as heritable
+genetic information. The chemical structures of both DNA and RNA provide
+mechanisms that ensure information is preserved and passed to subsequent
+generations. There are important chemical and structural differences between
+DNA and RNA that result in different stabilities and modes of replication.
+In order for information stored in DNA to direct cellular processes, the
+information needs to be transcribed (DNA to RNA) and in many cases,
+translated (RNA to Protein). The products of these processes determine
+metabolism and cellular activities and, thus, the phenotypes upon which
+evolution operates.
+\n\n In eukaryotic organisms, genetic information is packaged into
+chromosomes, which carry essential heritable information that must be
+passed to daughter cells. Mitosis provides a mechanism that ensures each
+daughter cell receives an identical and complete set of chromosomes and
+that ensures fidelity in the transmission of heritable information. Mitosis
+allows for asexual reproduction of organisms in which daughter cells are
+genetically identical to the parental cell and allows for genetic information
+transfer to subsequent generations. Both unicellular and multicellular
+organisms have various mechanisms that increase genetic variation.
+\n\n Sexual reproduction of diploid organisms involves the recombination of
+heritable information from both parents through fusion of gametes during
+fertilization. The two gametes that fuse to form a new progeny zygote each
+contain a single set(1n) of chromosomes. Meiosis reduces the number
+of chromosomes from diploid(2n) to haploid(1n) by following a single
+replication with two divisions. The random assortment of maternal and
+paternal chromosomes in meiosis and exchanges between sister chromosomes
+increase genetic variation; thus, the four gametes, while carrying the same
+number of chromosomes, are genetically unique with respect to individual
+alleles and allele combinations. The combination of these gametes at
+fertilization reestablishes the diploid nature of the organism and provides
+an additional mechanism for generating genetic variation, with every zygote
+being genetically different. Natural selection operates on populations through
+the phenotypic differences (traits) that individuals display; meiosis followed
+by fertilization provides a spectrum of possible phenotypes on which natural
+selection acts, and variation contributes to the long-term continuation of
+species.
+\n\n Some phenotypes are products of action from single genes. These single
+gene traits provided the experimental system through which Mendel was
+able to describe a model of inheritance. The processes that chromosomes
+undergo during meiosis provide a mechanism that accounts for the
+random distribution of traits, the independence of traits, and the fact
+that some traits tend to stay together as they are transmitted from parent
+to offspring. Mendelian genetics can be applied to many phenotypes,
+including some human genetic disorders. Ethical, social and medical issues
+can surround such genetic disorders.
+\n\n Whereas some traits are determined by the actions of single genes,
+most traits result from the interactions of multiple genes products or
+interactions between gene products and the environment. These traits
+often exhibit a spectrum of phenotypic properties that results in a wider
+range of observable traits, including weight, height and coat color in
+animals.
+
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="a. Genetic information is transmitted from one generation to the next
+through DNA or RNA.\n 1. Genetic information is stored in and passed to subsequent
+generations through DNA molecules and, in some cases, RNA
+molecules.
+\n2. Noneukaryotic organisms have circular chromosomes, while
+eukaryotic organisms have multiple linear chromosomes,
+although in biology there are exceptions to this rule.
+\n3. Prokaryotes, viruses and eukaryotes can contain plasmids,
+which are small extra-chromosomal, double-stranded circular
+DNA molecules.
+\n4. The proof that DNA is the carrier of genetic information
+involved a number of important historical experiments. These
+include:
+\ni. Contributions of Watson, Crick, Wilkins, and Franklin on
+the structure of DNA
+\nii. Avery-MacLeod-McCarty experiments
+\niii. Hershey-Chase experiment
+\n5. DNA replication ensures continuity of hereditary information.
+\ni. Replication is a semiconservative process; that is, one strand
+serves as the template for a new, complementary strand.
+\nii. Replication requires DNA polymerase plus many other
+essential cellular enzymes, occurs bidirectionally, and
+differs in the production of the leading and lagging strands.
+\n6. Genetic information in retroviruses is a special case and has
+an alternate flow of information: from RNA to DNA, made
+possible by reverse transcriptase, an enzyme that copies the
+viral RNA genome into DNA. This DNA integrates into the
+host genome and becomes transcribed and translated for the
+assembly of new viral progeny."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="b. DNA and RNA molecules have structural similarities and
+differences that define function.
+\n1. Both have three components — sugar, phosphate and a
+nitrogenous base — which form nucleotide units that are
+connected by covalent bonds to form a linear molecule with
+and ends, with the nitrogenous bases perpendicular to the
+sugar-phosphate backbone.
+\n2. The basic structural differences include:
+\ni. DNA contains deoxyribose (RNA contains ribose).
+\nii. RNA contains uracil in lieu of thymine in DNA.
+\niii. DNA is usually double stranded, RNA is usually single
+stranded.
+\niv. The two DNA strands in double-stranded DNA are
+antiparallel in directionality.
+\n3. Both DNA and RNA exhibit specific nucleotide base pairing
+that is conserved through evolution: adenine pairs with
+thymine or uracil (A-T or A-U) and cytosine pairs with guanine
+(C-G).
+\ni. Purines (G and A) have a double ring structure.
+\nii. Pyrimidines (C, T and U) have a single ring structure.
+\n4. The sequence of the RNA bases, together with the structure of
+the RNA molecule, determines RNA function.
+\ni. mRNA carries information from the DNA to the ribosome.
+\nii. tRNA molecules bind specific amino acids and allow
+information in the mRNA to be translated to a linear
+peptide sequence.
+\niii. rRNA molecules are functional building blocks of
+ribosomes.
+\niv. The role of RNAi includes regulation of gene expression at
+the level of mRNA transcription.
+"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="c. Genetic information flows from a sequence of nucleotides in a gene
+to a sequence of amino acids in a protein.
+\n 1. The enzyme RNA-polymerase reads the DNA molecule in
+the to direction and synthesizes complementary mRNA
+molecules that determine the order of amino acids in the
+polypeptide.
+\n2. In eukaryotic cells the mRNA transcript undergoes a series of
+enzyme-regulated modifications. For example, the addition of a poly-A tail, the addition of a guanine cap, and the excision of introns.
+\n 3. Translation of the mRNA occurs in the cytoplasm on the
+ribosome.
+\n4. In prokaryotic organisms, transcription is coupled to
+translation of the message. Translation involves energy and
+many steps, including initiation, elongation and termination. The salient features include:
+\ni. The mRNA interacts with the rRNA of the ribosome to
+initiate translation at the (start) codon.
+\nii. The sequence of nucleotides on the mRNA is read in triplets
+called codons.
+\niii. Each codon encodes a specific amino acid, which can be
+deduced by using a genetic code chart. Many amino acids
+have more than one codon.\niv. tRNA brings the correct amino acid to the correct place on
+the mRNA.
+\nv. The amino acid is transferred to the growing peptide chain.
+\nvi. The process continues along the mRNA until a “stop” codon
+is reached.
+\nvii. The process terminates by release of the newly synthesized
+peptide/protein.
+"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="d. Phenotypes are determined through protein activities. For example. proteins like enzymes support every part of the translation and transcription process, which result in proteins that determine phenotypes.
+\ne. Genetic engineering techniques can manipulate the heritable information of DNA and, in special cases, RNA. For example, Plasmid-based transformation is a process in which Plasmids (individual segments of DNA separate from chromosomes) are inserted into bacterial cells through transformation, and the plasmid becomes expressed along with the bacteria’s original chromosomal DNA.
+\nf. Illustrative examples of products of genetic engineering include: genetically modified foods, transgenic animals, cloned animals, and pharmaceuticals such as human insulin.
+
+"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

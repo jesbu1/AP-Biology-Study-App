@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".Overview">
+
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/card_view_overview_text"
+            android:textColor="@color/colorPrimaryText"
+            android:paddingBottom="16dp"
+            android:textSize="16dp"
+            android:text="Genetic information provides for continuity of life and, in most cases,
+this information is passed from parent to offspring via DNA. The doublestranded
+structure of DNA provides a simple and elegant solution for the
+transmission of heritable information to the next generation; by using
+each strand as a template, existing information can be preserved and
+duplicated with high fidelity within the replication process. However, the
+process of replication is imperfect, and errors occur through chemical
+instability and environmental impacts. Random changes in DNA
+nucleotide sequences lead to heritable mutations if they are not repaired.
+To protect against changes in the original sequence, cells have multiple
+mechanisms to correct errors. Despite the action of repair enzymes, some
+mutations are not corrected and are passed to subsequent generations.
+Changes in a nucleotide sequence, if present in a protein-coding region,
+can change the amino acid sequence of the polypeptide. In other cases,
+mutations can alter levels of gene expression or simply be silent. In order
+for information in DNA to direct cellular processes, information must be
+transcribed (DNA to RNA) and, in many cases, translated (RNA to Protein).
+The products of transcription and translation play an important role
+in determining metabolism, i.e., cellular activities and phenotypes.
+Biotechnology makes it possible to directly engineer heritable changes in
+cells to yield novel protein products.
+\n\nIn eukaryotic organisms, heritable information is packaged into
+chromosomes that are passed to daughter cells. Alternating with
+interphase in the cell cycle, mitosis followed by cytokinesis provides
+a mechanism in which each daughter cell receives an identical and a
+complete complement of chromosomes. Mitosis ensures fidelity in the
+transmission of heritable information, and production of identical progeny
+allows organisms to grow, replace cells, and reproduce asexually.
+\n\nSexual reproduction, however, involves the recombination of heritable
+information from both parents through fusion of gametes during
+fertilization. Meiosis followed by fertilization provides a spectrum of
+possible phenotypes in offspring and on which natural selection operates.
+\n\nMendel was able to describe a model of inheritance of traits, and his
+work represents an application of mathematical reasoning to a biological
+problem. However, most traits result from interactions of many genes
+and do not follow Mendelian patterns of inheritance. Understanding the
+genetic basis of specific phenotypes and their transmission in humans can
+raise social and ethical issues.
+\n\nThe expression of genetic material controls cell products, and these
+products determine the metabolism and nature of the cell. Gene
+expression is regulated by both environmental signals and developmental
+cascades or stages. Cell signaling mechanisms can also modulate and
+control gene expression. Thus, structure and function in biology involve
+two interacting aspects: the presence of necessary genetic information and
+the correct and timely expression of this information.
+\n\nGenetic information is a repository of instructions necessary for
+the survival, growth and reproduction of the organism. Changes in
+information can often be observed in the organism due to changes
+in phenotypes. At the molecular level, these changes may result from
+mutations in the genetic material whereupon effects can often be seen
+when the information is processed to yield a polypeptide; the changes
+may be positive, negative or neutral to the organism. At the cellular level,
+errors in the transfer of genetic information through mitosis and meiosis
+can result in adverse changes to cellular composition. Additionally,
+environmental factors can influence gene expression.
+\n\nGenetic variation is almost always advantageous for the long-term
+survival and evolution of a species. In sexually reproducing organisms,
+meiosis produces haploid gametes, and random fertilization produces
+diploid zygotes. In asexually reproducing organisms, variation can be
+introduced through mistakes in DNA replication or repair and through
+recombination; additionally, bacteria can transmit and/or exchange
+genetic information horizontally (between individuals in the same
+generation). Viruses have a unique mechanism of replication that is
+dependent on the host metabolic machinery. Viruses can introduce
+variation in the host genetic material through lysogenesis or latent
+infection.
+\n\nTo function in a biological system, cells communicate with other cells
+and respond to the external environment. Cell signaling pathways are
+determined by interacting signal and receptor molecules, and signaling
+cascades direct complex behaviors that affect physiological responses in
+the organism by altering gene expression or protein activity. Nonheritable
+information transmission influences behavior within and between cells,
+organisms and populations; these behaviors are directed by underlying
+genetic information, and responses to information are vital to natural
+selection and evolution. Animals have evolved sensory organs that detect
+and process external information. Nervous systems interface with these
+sensory and internal body systems, coordinating response and behavior;
+and this coordination occurs through the transmission and processing
+of signal information. Behavior in the individual serves to increase its
+fitness in the population while contributing to the overall survival of the
+population."
+            android:typeface="sans" />
+    </android.support.v7.widget.CardView>
+</ScrollView>

@@ -1,0 +1,180 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.ChemicalSignaling$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text = "For cells to function in a biological system, they must communicate with other
+cells and respond to their external environment. Cell-to-cell communication
+is ubiquitous in biological systems, from archaea and bacteria to multicellular
+organisms. The basic chemical processes by which cells communicate are
+shared across evolutionary lines of descent, and communication schemes
+are the products of evolution. Cell-to-cell communication is a component
+of higher-order biological organization and responses. In multicellular
+organisms, cell-to-cell and environment-to-cell chemical signaling pathways
+direct complex processes, ranging from cell and organ differentiation to whole
+organism physiological responses and behaviors. Certain signal pathways
+involve direct cell-to-cell contact, operate over very short distances, and
+may be determined by the structure of the organism or organelle, including
+plasmodesmata in plants and receptor-to-recognition protein interaction in
+the vertebrate immune system.
+\n\nChemical signals allow cells to communicate without physical contact.
+The distance between the signal generating cell(s) and the responding cell
+can be small or large. In this type of signaling pathway, there is often a
+gradient response, and threshold concentrations are required to trigger the
+communication pathway.
+\n\nChemical signaling pathways in cells are determined by the properties of
+the molecules involved, the concentrations of signal and receptor molecules,
+and the binding affinities (fit) between signal and receptor. The signal can
+be a molecule or a physical or environmental factor. At the cellular level,
+the receptor is a protein with specificity for the signal molecule; this allows
+the response pathway to be specific and appropriate. The receptor protein
+often is the initiation point for a signal cascade that ultimately results in a
+change in gene expression, protein activity, or physiological state of the cell
+or organism, including cell death (apoptosis). Defects in any part of the
+signal pathway often lead to severe or detrimental conditions such as faulty
+development, metabolic diseases, cancer or death.
+\n\nUnderstanding signaling pathways allows humans to modify and
+manipulate biological systems and physiology. An understanding of the
+human endocrine system, for example, allowed the development of birth
+control methods, as well as medicines that control depression, blood
+pressure and metabolism. Other examples include the ability to control/
+modify ripening in fruit, agricultural production (growth hormones) and
+biofilm control."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="a. Communication involves transduction of stimulatory or inhibitory
+signals from other cells, organisms or the environment.
+\n\nb. Correct and appropriate signal transduction processes are generally
+under strong selective pressure.
+\n\nc. In single-celled organisms, signal transduction pathways influence
+how the cell responds to its environment. For example, chemical messengers are used by microbes to communicate with other nearby cells and to regulate specific pathways in response to population density (quorum sensing).
+\n\nd. In multicellular organisms, signal transduction pathways
+coordinate the activities within individual cells that support the
+function of the organism as a whole. For example, epinephrine stimulates the breakdown of glycogen in mammals when it is needed.
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Cells communicate by cell-to-cell contact. For example, immune cells interact by cell-cell contact (helper T-cells contact antigen-presenting cells to recognize an antigen, and killer T-cells directly contact the intruding microbe to kill it)
+\n\nb. Cells communicate over short distances by using local regulators
+that target cells in the vicinity of the emitting cell. For example, neurotransmitters are local regulators sent across the synapse to the other neuron in very close proximity to the original neuron.
+
+\n\nc. Signals released by one cell type can travel long distances to target
+cells of another cell type.
+\n1. Endocrine signals are produced by endocrine cells that release
+signaling molecules, which are specific and can travel long
+distances through the blood to reach all parts of the body. For example, insulin, human growth hormone, thyroid hormones, testosterone, estrogen, etc.
+
+"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Signaling begins with the recognition of a chemical messenger, a
+ligand, by a receptor protein.
+\n1. Different receptors recognize different chemical messengers,
+which can be peptides, small chemicals or proteins, in a specific
+one-to-one relationship.
+\n2. A receptor protein recognizes signal molecules, causing the
+receptor protein’s shape to change, which initiates transduction
+of the signal. For example, ligand-gated ion channels change shape to allow or deny the entrance or exit of certain molecules after being attached to by a signal molecule.
+\n\nb. Signal transduction is the process by which a signal is converted to a
+cellular response.
+\n1. Signaling cascades relay signals from receptors to cell targets,
+often amplifying the incoming signals, with the result of
+appropriate responses by the cell.
+\n2. Second messengers are often essential to the function of the
+cascade. Second messengers include cyclic GMP, cyclic AMP, calcium ions (Ca2+), and IP3, which can attach to ligand-gated ion channels in the organelles of a cell after being activated by a signal transduction pathway.
+\n3. Many signal transduction pathways include:
+\ni. Protein modifications
+\nii. Phosphorylation cascades in which a series of protein
+kinases add a phosphate group to the next protein in the
+cascade sequence
+"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Conditions where signal transduction is blocked or defective can be
+deleterious, preventative or prophylactic (meaning intended to prevent disease).
+\nDeleterious examples include: diabetes, heart disease, autoimmune disease, cancer, cholera, neurotoxins, poisons, pesticides all affect or are a result from signal transduction pathways being blocked or defective.
+\nPreventative/prophylactic examples: Hypertensives, Anesthetics, Antihistamines, Birth Control Drugs
+
+"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

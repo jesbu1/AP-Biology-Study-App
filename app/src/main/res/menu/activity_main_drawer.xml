@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/big_idea_1"
+            android:icon="@drawable/ic_accessibility"
+            android:title="Big Idea 1: Evolution">
+        </item>
+
+        <item
+            android:id="@+id/big_idea_2"
+            android:icon="@drawable/ic_action_sun"
+            android:title="Big Idea 2: Free Energy" />
+        <item
+            android:id="@+id/big_idea_3"
+            android:icon="@drawable/dna"
+            android:title="Big Idea 3: Information" />
+        <item
+            android:id="@+id/big_idea_4"
+            android:icon="@drawable/ic_nature"
+            android:title="Big Idea 4: System" />
+        <item
+            android:id="@+id/how_to"
+            android:icon="@drawable/ic_action_book"
+            android:title="How To Use This App"/>
+        <item
+            android:id="@+id/help_me"
+            android:icon="@drawable/ic_nature"
+            android:title="Support the Developer!"/>
+    </group>
+
+
+</menu>

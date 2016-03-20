@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.SpeciationAndExtinction$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="44dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Speciation and extinction have occurred throughout the Earth’s history, and life continues to evolve within a changing environment. However, the rates of speciation and extinction vary. Speciation can be slow and gradual. Or, as described by punctuated equilibrium, can occur in “bursts” followed by relatively quiet periods. At times of ecological stress, extinction rates can be rapid, and mass extinctions are often followed by adaptive radiation, the rapid evolution of species when new habitats open. Scientific evidence, including emergent diseases, chemical resistance and genomic data,
+supports the idea that evolution occurs for all organisms and that evolution explains the diversity of life on the planet.
+A species can be defined as a group of individuals capable of interbreeding and exchanging genetic information to produce viable, fertile offspring. New species arise when two populations diverge from a
+common ancestor and become reproductively isolated. Although speciation can occur by different processes, reproductive isolation must be maintained for a species to remain distinct. Evidence that speciation has occurred includes fossil records and genomic data. "
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="• Speciation rates can vary, especially when adaptive radiation occurs when new habitats become available.\n
+• Species extinction rates are rapid at times of ecological stress. 5 major extinctions have occured. \n
+• Speciation results in diversity of life forms Species can be physically separated by a barrier such as an
+ocean or a mountain range, or various pre-and post-zygotic mechanisms can maintain reproductive
+isolation and prevent gene flow.\n• New species arise from reproductive isolation over time, which can
+involve scales of hundreds of thousands or millions of years, or speciation can occur rapidly through
+mechanisms such as polyploidy in plants, in which chromosomes are doubled or even tripled,
+creating reproductive isolation for a plant which can then fertilize itself to make more."
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16dp"
+                    android:typeface="sans" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:typeface="sans"
+                    android:textColor="@color/colorPrimaryText"
+                    android:text="• Scientific evidence supports the idea that evolution has occured in all species.
+\n• Scientific evidence supports the idea that evolution continues to occur. For example: Chemical resistance (mutations for resistance to antibiotics, pesticides, herbicides, etc.), emergent diseases, observed directional
+phenotypic change in a population (Darwin's finches in the Galapagos, or evolution of heart chambers, limbs, the brain."/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

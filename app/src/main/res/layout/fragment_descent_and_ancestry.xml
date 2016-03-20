@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.DescentAndAncestry$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="44dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="• Structural and function evidence supports the relatedness of all domains. For example, DNA and RNA are carriers of genetic information through transcription, translation, and replication;
+major features of the genetic code are shared by all modern living systems; and metabolic pathways are conserved across all currently recognized domains. \n• Structural evidence supports the relatedness of all eukaryotes.
+For example: the cytoskeleton is a shared structural network, membrane-bound organelles like mitochondria/chloroplasts are shared, all eukaryontes
+have linear chromosomes, and endomembrane system like the nuclear envelope are found in all eukaryotes. "
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="• Phylogenetic trees and cladograms can represent traits that are either derived or lost due to evolution.
+The number of heart chambers in animals, opposable thumbs, and the absence of legs in some sea mammals are all examples of traits lost/derived
+due to evolution that can be represented in phylogenetic trees and cladograms. \n• Phylogenetic trees and cladograms illustrate speciation that has occured,
+in that relatedness of any two groups on the tree is shown by how recently two groups had a common ancestor. \n• Phylogenetic trees and cladograms
+ can be constructed from morphological similarities of living or fossil species, and from DNA and protein sequence similarities, by employing computer
+ programs that have sophisticated ways of measuring and representing relatedness among organisms. \n• Phylogenetic trees and cladograms are dynamic
+based on the data used, new math and computational ideas, and current/emerging knowledge."
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16dp"
+                    android:typeface="sans" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:textSize="24dp"
+                    android:text="First Picture: Phylogenetic Tree. Second: Cladogram."/>
+
+                <ImageView
+                    android:id="@+id/phylogenetic_tree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/cladogram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

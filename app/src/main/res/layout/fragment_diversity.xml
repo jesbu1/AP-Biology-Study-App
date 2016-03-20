@@ -1,0 +1,191 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.Diversity$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text = "A biological system that possesses many different components often
+has greater flexibility to respond to changes in its environment. This
+phenomenon is sometimes referred to as “robustness.” Variation in
+molecular units provides cells with a wider range of functions; cells with
+multiple copies of genes or heterozygous genes possess a wider range of
+functions compared to cells with less genetic diversity, while cells with myriad
+enzymes can catalyze myriad chemical reactions.
+\n\nEnvironmental factors influence the phenotypic expression of an organism’s
+genotype. In humans, weight and height are examples of complex traits that
+can be influenced by environmental conditions. However, even simple single
+gene traits can be influenced by the environment; for example, flower color in
+some species of plants is dependent upon the pH of the environment. Some
+organisms possess the ability to respond flexibly to environmental signals
+to yield phenotypes that allow them to adapt to changes in the environment
+in which they live. Environmental factors such as temperature or density
+can affect sex determination in some animals, while parthenogenesis can be
+triggered by reproductive isolation. Plant seed dormancy can increase the
+survival of a species, and some viruses possess both lysogenic and lytic life
+cycles.
+\n\nThe level of variation in a population affects its dynamics. The ability of a
+population to respond to a changing environment (fitness) is often measured
+in terms of genomic diversity. Species with little genetic diversity, such as a
+population of plants that reproduces asexually or a very small population
+exhibiting a genetic bottleneck effect, are at risk with regard to long-term
+success and survival. Diversity of species within an ecosystem may influence
+the stability of the ecosystem. Ecosystems with little species diversity are often
+less resilient to changes in the environment. Keystone species, predators, and
+essential abiotic and biotic factors contribute to maintaining the diversity of an
+ecosystem. For example, the removal of sea otters or mollusks can drastically
+affect a marine ecosystem, and the introduction of an exotic plant or animal
+species can likewise affect the stability of a terrestrial ecosystem."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="a. Variations within molecular classes provide cells and organisms
+with a wider range of functions. Examples include:
+\n• Different types of phospholipids in cell membranes
+\n• Different types of hemoglobin
+\n• MHC proteins
+\n• Chlorophylls
+\n• Molecular diversity of antibodies in response to an antigen
+\n\nb. Multiple copies of alleles or genes (gene duplication) may provide
+new phenotypes.
+\n1. A heterozygote may be a more advantageous genotype than
+a homozygote under particular conditions, since with two
+different alleles, the organism has two forms of proteins that
+may provide functional resilience in response to environmental
+stresses.
+\n2. Gene duplication creates a situation in which one copy of the
+gene maintains its original function, while the duplicate may
+evolve a new function. For example: the SAS-A gene was duplicated as a result of a copying error in fish, and the SAS-B gene was developed, which is the antifreeze gene in fish. The protein binds to ice crystals to inhibit growth of ice, allowing these fish to live in cold environments.
+
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Environmental factors influence many traits both directly and
+indirectly.
+\n• Height and weight in humans
+\n• Flower color based on soil pH
+\n• Seasonal fur color in arctic animals
+\n• Sex determination in reptiles
+\n• Density of plant hairs as a function of herbivory
+\n• Effect of adding lactose to a Lac+ bacterial culture
+\n• Effect of increased UV on melanin production in animals
+\n• Presence of the opposite mating type on pheromones
+production in yeast and other fungi
+\n\nb. An organism’s adaptation to the local environment reflects a
+flexible response of its genome. For example:
+\n• Darker fur in cooler regions of the body in certain mammal
+species
+\n• Alterations in timing of flowering due to climate changes
+"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Population ability to respond to changes in the environment is
+affected by genetic diversity. Species and populations with little
+genetic diversity are at risk for extinction. Examples include:
+\n• California condors
+\n• Black-footed ferrets
+\n• Prairie chickens
+\n• Potato blight causing the potato famine
+\n• Corn rust affects on agricultural crops
+\n• Tasmanian devils and infectious cancer
+\n\nb. Genetic diversity allows individuals in a population to respond
+differently to the same changes in environmental conditions. For example:
+\n• Not all individuals in a population in a disease outbreak are
+equally affected; some may not show symptoms, some may
+have mild symptoms, or some may be naturally immune and
+resistant to the disease.
+\n\nc. Allelic variation within a population can be modeled by the Hardy-
+Weinberg equation(s).
+"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Natural and artificial ecosystems with fewer component parts
+and with little diversity among the parts are often less resilient to
+changes in the environment.
+\n\nb. Keystone species, producers, and essential abiotic and biotic factors
+contribute to maintaining the diversity of an ecosystem. The effects
+of keystone species on the ecosystem are disproportionate relative
+to their abundance in the ecosystem, and when they are removed
+from the ecosystem, the ecosystem often collapses.
+
+\n\n\nGreat job reading all of the information contained in this app!
+"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

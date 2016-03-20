@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".Overview">
+
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/card_view_overview_text"
+            android:textColor="@color/colorPrimaryText"
+            android:paddingBottom="16dp"
+            android:textSize="16dp"
+            android:text="All biological systems are composed of parts that interact with each other.
+These interactions result in characteristics not found in the individual
+parts alone. In other words, “the whole is greater than the sum of its
+parts.” All biological systems from the molecular level to the ecosystem
+level exhibit properties of biocomplexity and diversity. Together, these
+two properties provide robustness to biological systems, enabling
+greater resiliency and flexibility to tolerate and respond to changes
+in the environment. Biological systems with greater complexity and
+diversity often exhibit an increased capacity to respond to changes in the
+environment.
+\n\nAt the molecular level, the subcomponents of a biological polymer
+determine the properties of that polymer. At the cellular level, organelles
+interact with each other as part of a coordinated system that keeps
+the cell alive, growing and reproducing. The repertory of subcellular
+organelles and biochemical pathways reflects cell structure and
+differentiation. Additionally, interactions between external stimuli
+and gene expression result in specialization and divergence of cells,
+organs and tissues. Interactions and coordination between organs
+and organ systems determine essential biological activities for the
+organism as a whole. External and internal environmental factors can
+trigger responses in individual organs that, in turn, affect the entire
+organism. At the population level, as environmental conditions change,
+community structure changes both physically and biologically. The study
+of ecosystems seeks to understand the manner in which species are
+distributed in nature and how they are influenced by their abiotic and
+biotic interactions, e.g., species interactions. Interactions between living
+organisms and their environments result in the movement of matter and
+energy.
+\n\nInteractions, including competition and cooperation, play important roles
+in the activities of biological systems. Interactions between molecules
+affect their structure and function. Competition between cells may occur
+under conditions of resource limitation. Cooperation between cells
+can improve efficiency and convert sharing of resources into a net gain
+in fitness for the organism. Coordination of organs and organ systems
+provides an organism with the ability to use matter and energy effectively.
+\n\nVariations in components within biological systems provide a greater
+flexibility to respond to changes in its environment. Variation in molecular
+units provides cells with a wider range of potential functions. A population
+is often measured in terms of genomic diversity and its ability to respond
+to change. Species with genetic variation and the resultant phenotypes can
+respond and adapt to changing environmental conditions.
+"
+            android:typeface="sans" />
+    </android.support.v7.widget.CardView>
+</ScrollView>

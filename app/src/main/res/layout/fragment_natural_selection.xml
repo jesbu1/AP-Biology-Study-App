@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.NaturalSelectionActivity$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="44dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardElevation="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="• According to Darwin’s theory of natural selection, competition for limited resources results in differential survival. Individuals with more favorable phenotypes are more likely to survive and produce more offspring, thus passing traits to subsequent generations. It's important to remember that natural selection acts on PHENOTYPES, and individuals with phenotypic advantages will prevail.
+\n• Evolutionary fitness is measured by reproductive success. The most fit individuals have the highest reproductive success.
+\n• Genetic variation and mutation play roles in natural selection. A diverse gene pool is important for the survival of a species in a changing environment.
+\n• Environments can be more or less stable or fluctuating, and this affects evolutionary rate and direction; divergent genetic variations can be selected in each generation.
+\n• An adaptation is a genetic variation that is favored by selection and is manifested as a phenotypic trait that provides an advantage to an organism in a particular environment.
+\n• In addition to natural selection, chance and random events can influence the evolutionary process, ESPECIALLY for small populations.
+\n• Conditions for a population or an allele to be in Hardy-Weinberg equilibrium are: (1) a large population size, (2) absence of migration, (3) no net mutations, (4) random mating and (5) absence of selection. These conditions are seldom met in real populations.
+\n• Mathematical approaches are used to calculate changes in allele frequency, providing evidence for the occurrence of evolution in a population."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardElevation="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Hardy Weinberg Principle is as follows:"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textAlignment="center"
+                    android:textSize="24dp"
+                    android:typeface="sans" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Hardy_weinberg_image"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background">
+
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="• Environments change and act as selective mechanisms on population. For example, Dark Colored moths have risen in population size in industrious cities because smog induced by industry better camouflages dark moths compared to white moths.
+\n• Phenotypic variations are not directed by the environment but occur through random changes in the DNA and through new gene combinations.
+\n• Some phenotypic variations significantly increase or decrease the fitness of the organism and the population. Sickle cell anemia, for example decreases the fitness of humans who are affected.
+\n• Humans impact variation in other species. For example, artificial selection has favored large fruits for consumption.
+\n• Genetic drift is a nonselective process occurring in small populations, in which allele frequencies change as alleles exit and enter the population's gene pool through death, migration, etc.
+\n• Reduction of genetic variation within a given population can increase the differences between populations of the same species.
+\n• Scientific evidence of biological evolution uses information from geographical, geological, physical, chemical and mathematical applications.
+\n• Molecular, morphological and genetic information of existing and extinct organisms add to our understanding of evolution. For example, the fossil record, relationships within phylogenetic trees, homologous and vestigial structures, the rate of decay of isotopes, etc."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

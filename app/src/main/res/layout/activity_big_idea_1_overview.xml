@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".Overview">
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:id="@+id/card_view_overview_text"
+                android:textColor="@color/colorPrimaryText"
+                android:paddingBottom="16dp"
+                android:textSize="16dp"
+                android:text="Evolution is a change in the genetic makeup of a population over time,
+with natural selection its major driving mechanism. Darwin’s theory,
+which is supported by evidence from many scientific disciplines, states
+that inheritable variations occur in individuals in a population. Due
+to competition for limited resources, individuals with more favorable
+variations or phenotypes are more likely to survive and produce more
+offspring, thus passing traits to future generations. \n\nIn addition to the process of natural selection, naturally occurring
+catastrophic and human induced events as well as random environmental
+changes can result in alteration in the gene pools of populations. Small
+populations are especially sensitive to these forces. A diverse gene pool
+is vital for the survival of species because environmental conditions
+change. Mutations in DNA and recombinations during meiosis are
+sources of variation. Human-directed processes also result in new genes
+and combinations of alleles that confer new phenotypes. Mathematical
+approaches are used to calculate changes in allele frequency, providing
+evidence for the occurrence of evolution in a population. \n\nScientific evidence supports the idea that both speciation and extinction
+have occurred throughout Earth’s history and that life continues to evolve
+within a changing environment, thus explaining the diversity of life. New
+species arise when two populations diverge from a common ancestor and
+become reproductively isolated. Shared conserved core processes and
+genomic analysis support the idea that all organisms — Archaea, Bacteria,
+and Eukarya, both extant and extinct — are linked by lines of descent
+from common ancestry. Elements that are conserved across all three
+domains are DNA and RNA as carriers of genetic information, a universal
+genetic code and many metabolic pathways. Phylogenetic trees graphically
+model evolutionary history and “descent with modification.” However,
+some organisms and viruses are able to transfer genetic information
+horizontally. \n\nThe process of evolution explains the diversity and unity of life, but an
+explanation about the origin of life is less clear. Experimental models support
+the idea that chemical and physical processes on primitive Earth could
+have produced complex molecules and very simple cells. Under laboratory
+conditions, complex polymers and self-replicating molecules can assemble
+spontaneously; thus, the first genetic material may not have been DNA, but
+short sequences of self-replicating RNA that may have served as templates for
+polypeptide synthesis. Protobiontic formation was most likely followed by the evolution of several primitive groups of bacteria that used various means of
+obtaining energy. Mutually beneficial associations among ancient bacteria are
+thought to have given rise to eukaryotic cells."
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+    </ScrollView>

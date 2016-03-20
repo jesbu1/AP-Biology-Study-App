@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.FeedbackMechanisms$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="44dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardElevation="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Organisms respond to changes in their internal and external environments
+through behavioral and physiological mechanisms, such as photoperiodism
+in plants, hibernation and migration in animals, and shivering and sweating
+in humans. Organisms use negative feedback mechanisms to maintain their
+internal environments by returning the changing condition back to its target
+set point, while positive feedback mechanisms amplify responses. Examples
+of negative feedback responses include temperature regulation in animals
+and plant responses to drought; examples of positive feedback mechanisms
+are the onset of labor in childbirth and ripening of fruit. Alterations in
+feedback mechanisms can have deleterious effects, including diabetes and
+Graves’ disease in humans and the inability of plants to tolerate water stress
+during drought.
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardElevation="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="• Negative feedback mechanisms maintain dynamic homeostasis
+for a particular condition (variable) by regulating physiological
+processes, returning the changing condition back to its target set
+point. For example, in humans, the set point for body temperature is 98.6 degrees Fahrenheit. When the body temperature rises above this point, the hypothalamus senses this and triggers vasodilation of blood vessels and sweating to lower body temperature back to 98.6. When too cold, the hypothalamus can trigger the body to shiver, blood vessels to constrict, or mitochondria to generate heat to raise the body temperature.
+\n• Positive feedback mechanisms amplify responses and processes
+in biological organisms. The variable initiating the response is
+moved farther away from the initial set-point. Amplification occurs
+when the stimulus is further activated which, in turn, initiates an
+additional response that produces system change. For example, lactation in mammals is triggered by suckling on the nipple. In response to this, the body amplifies the stimulus by producing more milk which further amplifies the baby’s suckling.
+\n• Alteration in the mechanisms of feedback often results in
+deleterious consequences. For example, antidiuretic hormone (ADH) is essential to kidney function. When produced, it increases water reuptake by the nephrons of the kidneys. This lets the body take in more water to reduce blood osmolarity. When something goes wrong and ADH production is limited, dehydration occurs as the body doesn’t absorb as much water as it needs from the kidneys.
+"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16dp"
+                    android:typeface="sans" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background">
+
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="• Organisms respond to changes in their environment through
+behavioral and physiological mechanisms. For example, when a light source’s direction changes, plants exhibit physiological changes in which direction they grow by either sending Auxins (growth hormones) opposite the side of the light’s direction, or sending growth inhibition signals down the side that is facing the light, causing plants to bend toward the direction of light."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.OriginOfLife$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="The process of evolution explains the diversity and unity of life. Experimental investigations have provided evidence that the conditions early in the Earth’s history provided an environment capable of generating complex organic molecules and simple cell-like structures. For instance,
+in the “organic soup” model, the hypothesized primitive atmosphere contained inorganic precursors from which organic molecules could have been synthesized through natural chemical reactions catalyzed by the input of energy. In turn, these molecules served as monomers for the formation of more complex molecules, including amino acids and nucleotides. Some models suggest that primitive life developed on biogenic surfaces, such as clay, that served as templates and catalysts for assembly of macromolecules. Under laboratory conditions, complex polymers and self-replicating molecules can spontaneously assemble. It remains an open question whether the first genetic and self-replicating material was DNA or RNA. "
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Scientific evidence supports the various models:
+\n• Primitive Earth provided inorganic precursors from which organic molecules could have been synthesized due to the presence of available free energy and the absence of a significant quantity of oxygen. In turn, these molecules served as monomers or building blocks for the formation of more complex molecules, including amino acids and nucleotides. The joining of these monomers produced polymers with the ability to replicate, store and transfer information. These complex reaction sets could have occurred in solution (organic soup model) or as reactions on solid reactive surfaces.
+\n• The RNA World hypothesis proposes that RNA could have been the earliest genetic material. "
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16dp"
+                    android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:typeface="sans"
+                    android:textColor="@color/colorPrimaryText"
+                    android:text="Geological evidence provides support for models of the origin of life on Earth:
+\n• The Earth formed approximately 4.6 billion years ago (bya), and the environment was too hostile for life until 3.9 bya, while the earliest fossil evidence for life dates to 3.5 bya. Taken together, this evidence provides a plausible range of dates when the origin of life could have occurred.
+\n• Chemical experiments have shown that it is possible to form complex organic molecules from inorganic molecules in the absence of life.
+Molecular and genetic evidence from extant and extinct organisms indicates that all organisms on Earth share a common ancestral origin of life:
+\n• Scientific evidence includes molecular building blocks that are common to all life forms.
+\n• Scientific evidence includes a common genetic code. "/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+

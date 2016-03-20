@@ -1,0 +1,199 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.CompetitionAndCooperation$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text = "Competition and cooperation play important roles in the activities of
+biological systems at all levels of organization. Living systems require
+a myriad of chemical reactions on a constant basis, and each of these
+chemical reactions relies on the cooperation between a particular enzyme
+and specific substrates, coenzymes and cofactors. Chemical inhibitors may
+compete for the active sites of enzymes that, in turn, affect the ability of
+the enzyme to catalyze its chemical reactions. Thus, interactions between
+molecules affect their structure and function. Other examples of this
+phenomenon include receptor-ligand interactions and changes in protein
+structure due to amino acid sequence.
+\n\nSimilar cells may compete with each other when resources are limited;
+for example, organisms produce many more spores or seeds than will
+germinate. Competition for resources also determines which organisms
+are successful and produce offspring. In the vertebrate immune system,
+competition via antigen-binding sites determines which B-cell lineages are
+stimulated to reproduce.
+\n\nThe cooperation of parts extends to the organism that depends on the
+coordination of organs and organ systems, such as between the digestive and
+excretory systems of an animal or the roots and shoots of a plant. Cooperation
+within organisms increases efficiency in the use of matter and energy. For
+example, without the coordination and cooperation of its shoot and roots, a
+plant would be unable to survive if its root system was too small to absorb water
+to replace the water lost through transpiration by the shoot. Similarly, exchange
+of oxygen and carbon dioxide in an animal depends on the functioning of the
+respiratory and circulatory systems. Furthermore, population interactions
+influence patterns of species distribution and abundance, and global
+distribution of ecosystems changes substantially over time.
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="a. Change in the structure of a molecular system may result in a
+change of the function of the system.
+\n\nb. The shape of enzymes, active sites and interaction with specific
+molecules are essential for basic functioning of the enzyme.
+\n1. For an enzyme-mediated chemical reaction to occur, the substrate
+must be complementary to the surface properties (shape and
+charge) of the active site. In other words, the substrate must fit into
+the enzyme’s active site.
+\n2. Cofactors and coenzymes affect enzyme function; this
+interaction relates to a structural change that alters the activity
+rate of the enzyme. The enzyme may only become active when
+all the appropriate cofactors or coenzymes are present and bind
+to the appropriate sites on the enzyme.
+\n\nc. Other molecules and the environment in which the enzyme
+acts can enhance or inhibit enzyme activity. Molecules can bind
+reversibly or irreversibly to the active or allosteric sites, changing
+the activity of the enzyme.
+\n\nd. The change in function of an enzyme can be interpreted from data
+regarding the concentrations of product or substrate as a function
+of time. These representations demonstrate the relationship
+between an enzyme’s activity, the disappearance of substrate, and/
+or presence of a competitive inhibitor.
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Organisms have areas or compartments that perform a subset of
+functions related to energy and matter, and these parts contribute
+to the whole.
+\n1. At the cellular level, the plasma membrane, cytoplasm and,
+for eukaryotes, the organelles contribute to the overall
+specialization and functioning of the cell.
+\n2. Within multicellular organisms, specialization of organs
+contributes to the overall functioning of the organism. Examples include:
+\n• Exchange of gases
+\n• Circulation of fluids
+\n• Digestion of food
+\n• Excretion of wastes
+\n3. Interactions among cells of a population of unicellular
+organisms can be similar to those of multicellular organisms,
+and these interactions lead to increased efficiency and
+utilization of energy and matter. For example, bacterial communities live in the digestive systems of animals to help digest food the animal cannot.
+"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Interactions between populations affect the distributions and
+abundance of populations.
+\n1. Competition, parasitism, predation, mutualism and
+commensalism can affect population dynamics.
+\n2. Relationships among interacting populations can be
+characterized by positive and negative effects, and can be
+modeled mathematically (predator/prey, epidemiological
+models, invasive species).
+\n3. Many complex symbiotic relationships exist in an ecosystem,
+and feedback control systems play a role in the functioning of
+these ecosystems.
+\n\nb. A population of organisms has properties that are different
+from those of the individuals that make up the population. The
+cooperation and competition between individuals contributes to
+these different properties.
+\n\nc. Species-specific and environmental catastrophes, geological events,
+the sudden influx/depletion of abiotic resources or increased human
+activities affect species distribution and abundance. For example, loss of keystone species can instantly affect the entire ecosystem.
+"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a.Human impact accelerates change at local and global levels. For example:
+\n• Logging, slash and burn agriculture, urbanization,
+monocropping, infrastructure development (dams,
+transmission lines, roads), and global climate change threaten
+ecosystems and life on Earth.
+\n • An introduced species can exploit a new niche free of predators
+or competitors, thus exploiting new resources.
+\n• Introduction of new diseases can devastate native species. Illustrative examples include:
+\n• Dutch elm disease
+\n• Potato blight
+\n• Small pox [historic example for Native Americans]
+\n\nb. Geological and meteorological events impact ecosystem
+distribution.
+\n1. Biogeographical studies illustrate these changes. Examples include:
+\n• El Niño
+\n• Continental drift
+\n• Meteor impact on dinosaurs
+"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

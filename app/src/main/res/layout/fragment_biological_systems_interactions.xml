@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.BiologicalSystemsInteractions$SummaryFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="50dp">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text = "All biological systems, from cells to ecosystems, are influenced by complex biotic
+and abiotic interactions. The availability of resources influences activities in cells
+and organisms; examples include responses to cell density, biofilm(s) formation,
+temperature responses, and responses to nutrient and water availability. The
+availability of resources affects a population’s stability in size and its genetic
+composition; examples include birth rates versus death rates from bacteria
+to mammals and global distribution of food for humans.
+\n\nHomeostatic mechanisms reflect both continuity due to common ancestry
+and change due to evolution in different environments. Supporting evidence
+includes a sampling of homeostatic control systems that are conserved across biological domains. Organisms have evolved various mechanisms
+for obtaining nutrients and getting rid of wastes, including gas exchange,
+osmoregulation and nitrogenous waste production. Disturbances to dynamic
+homeostasis effect biological processes, and plants and animals have evolved
+a variety of defenses against infections and other disruptions to homeostasis
+including immune responses. At the ecosystem level, disruptions impact the
+balance of the ecosystem and the interactions between specific organisms
+therein.
+"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16dp"
+            android:typeface="sans" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="• Cell activities are affected by interactions with biotic and abiotic
+factors. For example, healthy body cells won’t grow if there are already many other cells in the vicinity (biotic factor), this is known as density-dependent inhibition
+\n• Organism activities are also affected by interactions with biotic and
+abiotic factors. Water and nutrient availability (abiotic factors), or lack thereof, can influence organisms to migrate to different areas.
+\n• The stability of populations, communities and ecosystems is also
+affected by interactions with biotic and abiotic factors. Organisms in food chains and food webs rely on the interactions between other organisms in those food webs/chains. Also, the population density of organisms within those webs/chains affects other organisms too.
+"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16dp"
+            android:typeface="sans" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:textColor="@color/colorPrimaryText"
+            android:text="• Continuity of homeostatic mechanisms reflects common ancestry,
+while changes may occur in response to different environmental
+conditions.
+\n• Organisms have various mechanisms for obtaining nutrients and
+eliminating wastes. This includes gas exchange in aquatic and terrestrial plants, digestive mechanisms in animals such as gastrovascular cavities, respiratory systems, and nitrogenous waste production and elimination in animals.
+\n• Homeostatic control systems in species of microbes, plants and
+animals support common ancestry. For example, osmoregulation occurs in bacteria, fish and protists. Circulatory systems are very similar between fish, amphibians, and mammals. Thermoregulation in aquatic and terrestrial animals are similar, even in regards to a special form of blood vessel arrangement called countercurrent exchange, in which arteries are aligned with veins so that warm blood in arteries can heat up surrounding veins to ensure a constant temperature throughout the body.
+"/>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:textColor="@color/colorPrimaryText"
+            android:text="• Disruptions at the molecular and cellular levels affect the health of
+the organism. Dehydration or toxic substances affect the overall health of organisms, and pathogens attack the body, affecting the health of the organism and forcing it to produce an immunological response that further strains the organism’s health.
+\n• Disruptions to ecosystems impact the dynamic homeostasis or
+balance of the ecosystem. An invasive species that has no predators in a new ecosystem can completely disrupt the balance of that ecosystem. Natural disasters, human impact, and salination are also other ways ecosystems can be affected.
+"/>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:textColor="@color/colorPrimaryText"
+            android:text="• Plants, invertebrates and vertebrates have multiple, nonspecific
+immune responses. Plants have systemic molecular recognition systems that recognize pathogens and attacks them (the hypersensitive response). Actual infection then triggers chemical responses that destroy infected and adjacent cells, thus localizing the effects. Vertebrates have nonspecific defense mechanisms against pathogens, such as lysozyme which targets and inhibits bacterial growth.
+\n• Mammals use specific immune responses triggered by natural or
+artificial agents that disrupt dynamic homeostasis. The mammalian response is as follows:
+\n1. The mammalian immune system includes two types of specific
+responses: cell mediated and humoral.
+\n2. In the cell-mediated response, cytotoxic T cells, a type of
+lymphocytic white blood cell, “target” intracellular pathogens
+when antigens are displayed on the outside of the cells.
+\n3. In the humoral response, B cells, a type of lymphocytic white
+blood cell, produce antibodies against specific antigens.
+\n4. Antigens are recognized by antibodies to the antigen.
+\n5. Antibodies are proteins produced by B cells, and each antibody
+is specific to a particular antigen.
+\n6. A second exposure to an antigen results in a more rapid and
+enhanced immune response.
+
+"/>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+</ScrollView>

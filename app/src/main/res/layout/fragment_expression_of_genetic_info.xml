@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.ExpressionOfGeneticInfo$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text = "Structure and function in biology result from the presence of genetic
+information and the correct expression of this information. The expression
+of the genetic material controls cell products, and these products
+determine the metabolism and nature of the cell. Most cells within an
+organism contain the same set of genetic instructions, but the differential
+expression of specific genes determines the specialization of cells. Some
+genes are continually expressed, while the expression of most is regulated;
+regulation allows more efficient energy utilization, resulting in increased
+metabolic fitness. Gene expression is controlled by environmental signals
+and developmental cascades that involve both regulatory and structural
+genes. A variety of different gene regulatory systems are found in nature.
+Two of the best studied are the inducible and the repressible regulatory
+systems (i.e., operons) in bacteria, and several regulatory pathways that
+are conserved across phyla use a combination of positive and negative
+regulatory motifs. In eukaryotes, gene regulation and expression are
+more complex and involve many factors, including a suite of regulatory
+molecules.
+
+\n\nMulticellular organisms have developmental pathways from zygote to
+adult, yet all cells in the organism start with the same complement of
+DNA. The developmental sequences are predominately determined
+and programmed by differential gene expression. Which gene gets
+expressed and the level of expression are determined by both internal
+and external signals. In multicellular organisms, cell-to-cell interactions
+and cell-to-cell signaling via small molecules modulate and control gene
+expression and cell function. For example, morphogens help to determine
+spatial development, and hormones can influence cell metabolism.
+\n\nDevelopmental gene sequences have an evolutionary origin and are
+conserved across species; for example, HOX genes are present in genome
+sequences from Drosophila to humans. Errors or changes in regulation of
+genes involved in development often lead to severe, detrimental and even
+bizarre consequences."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="a. Both DNA regulatory sequences, regulatory genes, and small
+regulatory RNAs are involved in gene expression.
+\n1. Regulatory sequences are stretches of DNA that interact with
+regulatory proteins to control transcription. Regulatory proteins include transcription factors that bind to polymerase and DNA to facilitate transcription.
+\n2. A regulatory gene is a sequence of DNA encoding a regulatory
+protein or RNA.
+
+\n\nb. Both positive and negative control mechanisms regulate gene
+expression in bacteria and viruses.
+\n1. The expression of specific genes can be turned on by the presence
+of an inducer.
+\n2. The expression of specific genes can be inhibited by the
+presence of a repressor.
+\n3. Inducers and repressors are small molecules that interact with
+regulatory proteins and/or regulatory sequences.
+\n4. Regulatory proteins inhibit gene expression by binding to DNA
+and blocking transcription (negative control).
+\n5. Regulatory proteins stimulate gene expression by binding
+to DNA and stimulating transcription (positive control) or
+binding to repressors to inactivate repressor function.
+\n6. Certain genes are continuously expressed; that is, they are
+always turned “on,” e.g., the ribosomal genes.
+\n\nc. In eukaryotes, gene expression is complex and control involves
+regulatory genes, regulatory elements and transcription factors that
+act in concert.
+\n1. Transcription factors bind to specific DNA sequences and/or
+other regulatory proteins.
+\n2. Some of these transcription factors are activators (increase
+expression), while others are repressors (decrease expression).
+\n3. The combination of transcription factors binding to the
+regulatory regions at any one time determines how much, if any,
+of the gene product will be produced.
+\n\nd. Gene regulation accounts for some of the phenotypic differences
+between organisms with similar genes."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Signal transmission within and between cells mediates gene
+expression:
+\n• Cytokines regulate gene expression to allow for cell replication
+and division.
+\n• Mating pheromones in yeast trigger mating gene expression.
+\n• Levels of cAMP regulate metabolic gene expression in bacteria.
+\n• Expression of the SRY gene triggers the male sexual
+development pathway in animals.
+\n• Ethylene levels cause changes in the production of different
+enzymes, allowing fruits to ripen.
+\n• Seed germination and gibberellin.
+\n\nb. Signal transmission within and between cells mediates cell
+function.
+\n• Mating pheromones in yeast trigger mating genes expression
+and sexual reproduction.
+\n• Morphogens stimulate cell differentiation and development.
+\n• Changes in p53 activity can result in cancer.
+\n• HOX genes and their role in development.
+"/>
+</android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,233 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.InteractionsToProperties1$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text = "All biological systems, from cells to ecosystems, are composed of parts that
+interact with each other. When this happens, the resulting interactions
+enable characteristics not found in the individual parts alone. In other
+words, “the whole is greater than the sum of its parts,” a phenomenon
+sometimes referred to as “emergent properties.”
+\n\nAt the molecular level, the properties of a polymer are determined by its
+subcomponents and their interactions. For example, a DNA molecule
+is comprised of a series of nucleotides that can be linked together in
+various sequences; the resulting polymer carries hereditary material for
+the cell, including information that controls cellular activities. Other
+polymers important to life include carbohydrates, lipids and proteins. The
+interactions between the constituent parts of polymers, their order, their
+molecular orientation and their interactions with their environment define
+the structure and function of the polymer.
+\n\nAt the cellular level, organelles interact with each other and their
+environment as part of a coordinated system that allows cells to live,
+grow and reproduce. For example, chloroplasts produce trioses through
+the process of photosynthesis; however, once trioses are synthesized and
+exported from the chloroplast, they may be packaged by the Golgi body
+and distributed to the edge of the cell where they serve as a building block
+for cellulose fibers comprising the cell wall. Similarly, several organelles
+are involved in the manufacture and export of protein. The repertory
+of subcellular organelles determines cell structure and differentiation;
+for instance, the components of plant leaf cells are different from the
+components of plant root cells, and the components of human liver
+cells are different from those in the retina. Thus, myriad interactions
+of different parts at the subcellular level determine the functioning of
+the entire cell, which would not happen with the activities of individual
+organelles alone.
+\n\nIn development, interactions between regulated gene expression and
+external stimuli, such as temperature or nutrient levels or signal molecules,
+result in specialization of cells, organs and tissues. Differentiation of the
+germ layers during vertebrate gastrulation is an example of one such
+divergence. The progression of stem cells to terminal cells can also be
+explained by the interaction of stimuli and genes. Additionally, cells,
+organs and tissues may change due to changes in gene expression triggered
+by internal cues, including regulatory proteins and growth factors, which
+result in the structural and functional divergence of cells.
+\n\nOrganisms exhibit complex properties due to interactions of their
+constituent parts, and interactions and coordination between organs and
+organ systems provide essential biological activities for the organism
+as a whole. Examples include the vessels and hearts of animals and the
+roots and shoots of plants. Environmental factors such as temperature
+can trigger responses in individual organs that, in turn, affect the entire
+organism.
+\n\nInteractions between populations within communities also lead to
+complex properties. As environmental conditions change in time and
+space, the structure of the community changes both physically and
+biologically, resulting in a mosaic in the landscape (variety or patterns)
+in a community. Communities are comprised of different populations of
+organisms that interact with each other in either negative or positive ways
+(e.g., competition, parasitism and mutualism); community ecology seeks
+to understand the manner in which groupings of species are distributed
+in nature, and how they are influenced by their abiotic environment and
+species interactions. The physical structure of a community is affected by
+abiotic factors, such as the depth and flow of water in a stream, and also
+by the spatial distribution of organisms, such as in the canopy of trees.
+The mix of species in terms of both the number of individuals and the
+diversity of species defines the structure of the community. Mathematical
+or computer models can be used to illustrate and investigate interactions
+of populations within a community and the effects of environmental
+impacts on a community. Community change resulting from disturbances
+sometimes follows a pattern (e.g., succession following a wildfire), and in
+other cases is random and unpredictable (e.g., founder effect).
+\n\nAt the ecosystem level, interactions among living organisms and with their
+environment result in the movement of matter and energy. Ecosystems
+include producers, consumers, decomposers and a pool of organic matter,
+plus the physiochemical environment that provides the living conditions
+for the biotic components. Matter, but not energy, can be recycled within
+an ecosystem via biogeochemical cycles. Energy flows through the system
+and can be converted from one type to another, e.g., energy available
+in sunlight is converted to chemical bond energy via photosynthesis.
+Understanding individual organisms in relation to the environment and
+the diverse interactions that populations have with one another (e.g., food
+chains and webs) informs the development of ecosystem models; models
+allow us to identify the impact of changes in biotic and abiotic factors.
+Human activities affect ecosystems on local, regional and global scales.
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="a. Structure and function of polymers are derived from the way their
+monomers are assembled.
+\n1. In nucleic acids, biological information is encoded in sequences
+of nucleotide monomers. Each nucleotide has structural
+components: a five-carbon sugar (deoxyribose or ribose), a
+phosphate and a nitrogen base (adenine, thymine, guanine,
+cytosine or uracil). DNA and RNA differ in function and differ
+slightly in structure, and these structural differences account
+for the differing functions.
+\n2. In proteins, the specific order of amino acids in a polypeptide
+(primary structure) interacts with the environment to
+determine the overall shape of the protein, which also involves
+secondary tertiary and quaternary structure and, thus, its
+function. The R group of an amino acid can be categorized by
+chemical properties (hydrophobic, hydrophilic and ionic), and
+the interactions of these R groups determine structure and
+function of that region of the protein.
+\n3. In general, lipids are nonpolar; however, phospholipids exhibit
+structural properties, with polar regions that interact with other
+polar molecules such as water, and with nonpolar regions where
+differences in saturation determine the structure and function
+of lipids.
+\n4. Carbohydrates are composed of sugar monomers whose
+structures and bonding with each other by dehydration
+synthesis determine the properties and functions of the
+molecules. Illustrative examples include: cellulose versus starch.
+\n\nb. Directionality influences structure and function of the polymer.
+\n1. Nucleic acids have ends, defined by the and 5' carbons of the
+sugar in the nucleotide, that determine the direction in which
+complementary nucleotides are added during DNA synthesis
+and the direction in which transcription occurs (from 5' to 3').
+\n2. Proteins have an amino end (NH2) and a carboxyl (COOH)
+end, and consist of a linear sequence of amino acids connected
+by the formation of peptide bonds by dehydration synthesis
+between the amino and carboxyl groups of adjacent monomers.
+\n3. The nature of the bonding between carbohydrate subunits
+determines their relative orientation in the carbohydrate, which
+then determines the secondary structure of the carbohydrate.
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Ribosomes are small, universal structures comprised of two
+interacting parts: ribosomal RNA and protein. In a sequential
+manner, these cellular components interact to become the site of
+protein synthesis where the translation of the genetic instructions
+yields specific polypeptides.
+\n\nb. Endoplasmic reticulum (ER) occurs in two forms: smooth and
+rough.
+\n1. Rough endoplasmic reticulum functions to compartmentalize
+the cell, serves as mechanical support, provides site-specific
+protein synthesis with membrane-bound ribosomes and plays a
+role in intracellular transport.
+\n2. In most cases, smooth ER synthesizes lipids.
+\n\nc. The Golgi complex is a membrane-bound structure that consists of
+a series of flattened membrane sacs (cisternae).
+\n1. Functions of the Golgi include synthesis and packaging of
+materials (small molecules) for transport (in vesicles), and
+production of lysosomes.
+\n\nd. Mitochondria specialize in energy capture and transformation.
+\n1. Mitochondria have a double membrane that allows
+compartmentalization within the mitochondria and is
+important to its function.
+\n2. The outer membrane is smooth, but the inner membrane is
+highly convoluted, forming folds called cristae.
+\n3. Cristae contain enzymes important to ATP production; cristae
+also increase the surface area for ATP production.
+\n\ne. Lysosomes are membrane-enclosed sacs that contain hydrolytic
+enzymes, which are important in intracellular digestion, the
+recycling of a cell’s organic materials and programmed cell death
+(apoptosis). Lysosomes carry out intracellular digestion in a variety
+of ways.
+\n\nf. A vacuole is a membrane-bound sac that plays roles in intracellular
+digestion and the release of cellular waste products. In plants, a
+large vacuole serves many functions, from storage of pigments or
+poisonous substances to a role in cell growth. In addition, a large
+central vacuole allows for a large surface area to volume ratio.
+\n\n g. Chloroplasts are specialized organelles found in algae and higher
+plants that capture energy through photosynthesis.
+\n1. The structure and function relationship in the chloroplast
+allows cells to capture the energy available in sunlight and
+convert it to chemical bond energy via photosynthesis.
+\n2. Chloroplasts contain chlorophylls, which are responsible for the
+green color of a plant and are the key light-trapping molecules
+in photosynthesis. There are several types of chlorophyll, but the
+predominant form in plants is chlorophyll a.
+\n3. Chloroplasts have a double outer membrane that creates a
+compartmentalized structure, which supports its function.
+Within the chloroplasts are membrane-bound structures
+called thylakoids. Energy-capturing reactions housed in the
+thylakoids are organized in stacks, called “grana,” to produce
+ATP and NADPH2, which fuel carbon-fixing reactions in the
+Calvin-Benson cycle. Carbon fixation occurs in the stroma,
+where molecules of CO2 are converted to carbohydrates.
+"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

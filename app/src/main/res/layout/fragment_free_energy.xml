@@ -1,0 +1,252 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.OriginOfLife$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text = "Living systems require energy to maintain order, grow and reproduce. In
+accordance with the laws of thermodynamics, to offset entropy, energy
+input must exceed energy lost from and used by an organism to maintain
+order. Organisms use various energy-related strategies to survive;
+strategies include different metabolic rates, physiological changes, and
+variations in reproductive and offspring-raising strategies. Not only can
+energy deficiencies be detrimental to individual organisms, but changes
+in free energy availability also can affect population size and cause
+disruptions at the ecosystem level.
+\n\nSeveral means to capture, use and store free energy have evolved in
+organisms. Cells can capture free energy through photosynthesis and
+chemosynthesis. Autotrophs capture free energy from the environment,
+including energy present in sunlight and chemical sources, whereas
+heterotrophs harvest free energy from carbon compounds produced by
+other organisms. Through a series of coordinated reaction pathways,
+photosynthesis traps free energy in sunlight that, in turn, is used to produce
+carbohydrates from carbon dioxide and water. Cellular respiration and
+fermentation use free energy available from sugars and from interconnected,
+multistep pathways (i.e., glycolysis, the Krebs cycle and the electron
+transport chain) to phosphorylate ADP, producing the most common
+energy carrier, ATP. The free energy available in sugars can be used to drive
+metabolic pathways vital to cell processes. The processes of photosynthesis
+and cellular respiration are interdependent in their reactants and products.
+\n\nOrganisms must exchange matter with the environment to grow,
+reproduce and maintain organization. The cellular surface-to-volume ratio
+affects a biological system’s ability to obtain resources and eliminate waste
+products. Water and nutrients are essential for building new molecules.
+\n\nCarbon dioxide moves from the environment to photosynthetic organisms
+where it is metabolized and incorporated into carbohydrates, proteins,
+nucleic acids or lipids. Nitrogen is essential for building nucleic acids and
+proteins; phosphorus is incorporated into nucleic acids, phospholipids,
+ATP and ADP. In aerobic organisms, oxygen serves as an electron
+acceptor in energy transformations."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="• Life requires a highly ordered system.
+1. Order is maintained by constant free energy input into the system.
+2. Loss of order or free energy flow results in death.
+3. Increased disorder and entropy are offset by biological processes
+that maintain or increase order.
+\n• Living systems do not violate the second law of thermodynamics,
+which states that entropy increases over time.
+1. Order is maintained by coupling cellular processes that increase
+entropy (and so have negative changes in free energy) with
+those that decrease entropy (and so have positive changes in
+free energy).
+2. Energy input must exceed free energy lost to entropy to
+maintain order and power cellular processes.
+3. Energetically favorable exergonic reactions, such as ATP to ADP,
+that have a negative change in free energy can be used to
+maintain or increase order in a system by being coupled with
+reactions that have a positive free energy change.
+\n• Energy-related pathways in biological systems are sequential and
+may be entered at multiple points in the pathway.
+\n• Organisms use free energy to maintain organization, grow and
+reproduce.
+1. Organisms use various strategies to regulate body temperature
+and metabolism. For example, ectotherms bask in sunlight when cold and hide under shade when hot.
+2. Reproduction and rearing of offspring require free energy
+beyond that used for maintenance and growth. Different
+organisms use various reproductive strategies in response to
+energy availability.
+3. There is a relationship between metabolic rate per unit body
+mass and the size of multicellular organisms — generally, the
+smaller the organism, the higher the metabolic rate.
+4. Excess acquired free energy versus required free energy
+expenditure results in energy storage or growth.
+5. Insufficient acquired free energy versus required free energy
+expenditure results in loss of mass and, ultimately, the death of
+an organism.
+\n• Changes in free energy availability can result in changes in
+population size. For example, a reduction in sunlight can cause producers population size to decrease.
+\n• Changes in free energy availability can result in disruptions to an
+ecosystem. "
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="• Autotrophs capture free energy from physical sources in the
+environment.
+1. Photosynthetic organisms capture free energy present in
+sunlight.
+2. Chemosynthetic organisms capture free energy from small
+inorganic molecules present in their environment, and this
+process can occur in the absence of oxygen.
+\n• Heterotrophs capture free energy present in carbon compounds
+produced by other organisms.
+1. Heterotrophs may metabolize carbohydrates, lipids and
+proteins by hydrolysis as sources of free energy.
+2. Fermentation produces organic molecules, including alcohol
+and lactic acid, and it occurs in the absence of oxygen.
+\n• Different energy-capturing processes use different types of electron
+acceptors. In oxidative phosphorylation, oxygen is most often used as the electron receptor. However, other processes involving electron transport chains
+can use different receptors.
+\n• The light-dependent reactions of photosynthesis in eukaryotes
+involve a series of coordinated reaction pathways that capture free
+energy present in light to yield ATP and NADPH, which power the
+production of organic molecules.
+1. During photosynthesis, chlorophylls absorb free energy
+from light, boosting electrons to a higher energy level in
+Photosystems I and II.
+2. Photosystems I and II are embedded in the internal membranes
+of chloroplasts (thylakoids) and are connected by the transfer
+of higher free energy electrons through an electron transport
+chain (ETC).
+3. When electrons are transferred between molecules in a
+sequence of reactions as they pass through the ETC, an
+electrochemical gradient of hydrogen ions (protons) across the
+thykaloid membrane is established.
+4. The formation of the proton gradient is a separate process, but
+it is linked to the synthesis of ATP from ADP and inorganic
+phosphate via ATP synthase.
+5. The energy captured in the light reactions as ATP and NADPH
+powers the production of carbohydrates from carbon dioxide in
+the Calvin cycle, which occurs in the stroma of the chloroplast.
+\n• Photosynthesis first evolved in prokaryotic organisms; scientific
+evidence supports that prokaryotic (bacterial) photosynthesis
+was responsible for the production of an oxygenated atmosphere;
+prokaryotic photosynthetic pathways were the foundation of eukaryotic photosynthesis.
+\n• Cellular respiration in eukaryotes involves a series of coordinated
+enzyme-catalyzed reactions that harvest free energy from simple
+carbohydrates.
+1. Glycolysis rearranges the bonds in glucose molecules, releasing
+free energy to form ATP from ADP and inorganic phosphate,
+and resulting in the production of pyruvate.
+2. Pyruvate is transported from the cytoplasm to the
+mitochondrion, where further oxidation occurs.
+3. In the Krebs cycle, carbon dioxide is released from organic
+intermediates ATP is synthesized from ADP and inorganic
+phosphate via substrate level phosphorylation and electrons are
+captured by coenzymes.
+4. Electrons that are extracted in the series of Krebs cycle
+reactions are carried by NADH and FADH2 to the electron
+transport chain.
+\n• The electron transport chain captures free energy from electrons in a
+series of coupled reactions that establish an electrochemical gradient
+across membranes.
+1. Electron transport chain reactions occur in chloroplasts
+(photosynthesis), mitochondria (cellular respiration) and
+prokaryotic plasma membranes.
+2. In cellular respiration, electrons delivered by NADH and
+FADH2 are passed to a series of electron acceptors as they
+move toward the terminal electron acceptor, oxygen. In
+photosynthesis, the terminal electron acceptor is .
+3. The passage of electrons is accompanied by the formation of a
+proton gradient across the inner mitochondrial membrane or
+the thylakoid membrane of chloroplasts, with the membrane(s)
+separating a region of high proton concentration from a region
+of low proton concentration. In prokaryotes, the passage of
+electrons is accompanied by the outward movement of protons
+across the plasma membrane.
+4. The flow of protons back through membrane-bound ATP
+synthase by chemiosmosis generates ATP from ADP and
+inorganic phosphate.
+5. In cellular respiration, decoupling oxidative phosphorylation
+from electron transport is involved in thermoregulation.
+\n• Free energy becomes available for metabolism by the conversion of
+ATP to ADP, which is coupled to many steps in metabolic pathways."/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="• Molecules and atoms from the environment are necessary to build new
+molecules. 1. Carbon moves from the environment to organisms where it is
+used to build carbohydrates, proteins, lipids or nucleic acids.
+Carbon is used in storage compounds and cell formation in all
+organisms.
+2. Nitrogen moves from the environment to organisms where it is
+used in building proteins and nucleic acids. Phosphorus moves
+from the environment to organisms where it is used in nucleic
+acids and certain lipids.
+3. Living systems depend on properties of water that result from
+its polarity and hydrogen bonding. For example, water's cohesion and adhesion properties pull it up through the xylem in plants to reach all of the plant.
+\n• Surface area-to-volume ratios affect a biological system’s ability to
+obtain necessary resources or eliminate waste products.
+1. As cells increase in volume, the relative surface area decreases
+and demand for material resources increases; more cellular
+structures are necessary to adequately exchange materials and
+energy with the environment. These limitations restrict cell size.
+2. The surface area of the plasma membrane must be large enough
+to adequately exchange materials; smaller cells have a more
+favorable surface area-to-volume ratio for exchange of materials
+with the environment."/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

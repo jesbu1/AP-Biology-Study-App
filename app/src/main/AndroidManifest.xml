@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jesse.apbiologystudyappv2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="AP Bio Guide"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="AP Bio Study Guide"
+            android:theme="@style/AppTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NaturalSelectionActivity"
+            android:label="Natural Selection"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DescentAndAncestry"
+            android:label="Descent and Ancestry"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SpeciationAndExtinction"
+            android:label="Speciation And Extinction"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OriginOfLife"
+            android:label="@string/title_activity_origin_of_life"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity android:name=".Overview" />
+        <activity
+            android:name=".FreeEnergy"
+            android:label="Free Energy"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SeparationOfEnvironment"
+            android:label="Separation of Environment"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FeedbackMechanisms"
+            android:label="@string/title_activity_feedback_mechanisms"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BiologicalSystemsInteractions"
+            android:label="@string/title_activity_biological_systems_interactions"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TimingAndCoordination"
+            android:label="@string/title_activity_timing_and_coordination"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DnaAndRna"
+            android:label="@string/title_activity_dna_and_rna"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ExpressionOfGeneticInfo"
+            android:label="@string/title_activity_expression_of_genetic_info"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GeneticVariation"
+            android:label="@string/title_activity_genetic_variation"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ChemicalSignaling"
+            android:label="@string/title_activity_chemical_signaling"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ResultsOfSignaling"
+            android:label="@string/title_activity_results_of_signaling"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".InteractionsToProperties1"
+            android:label="Interactions to Properties 1"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".InteractionsToProperties2"
+            android:label="@string/title_activity_interactions_to_properties2"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CompetitionAndCooperation"
+            android:label="@string/title_activity_competition_and_cooperation"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Diversity"
+            android:label="@string/title_activity_diversity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jesse.apbiologystudyappv2.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

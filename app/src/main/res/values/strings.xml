@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AP Biology Study App v2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="NaturalSelectionAndEvolution">Natural Selection and Evolution</string>
+    <string name="DescentAndAncestry">Descent and Ancestry</string>
+    <string name="SpeciationAndExtinction">Speciation and Extinction</string>
+    <string name="OriginOfLife">Origin of Life</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_natural_selection">NaturalSelectionActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_descent_and_ancestry">DescentAndAncestry</string>
+    <string name="title_activity_speciation_and_extinction">Speciation + Extinction</string>
+    <string name="title_activity_origin_of_life">Origin Of Life</string>
+    <string name="title_activity_free_energy">Free Energy</string>
+    <string name="title_activity_separation_of_environment">Separation Of Environment</string>
+    <string name="title_activity_feedback_mechanisms">Feedback Mechanisms</string>
+    <string name="title_activity_biological_systems_interactions">Biological Systems Interactions</string>
+    <string name="title_activity_timing_and_coordination">Timing And Coordination</string>
+    <string name="title_activity_dna_and_rna">Dna And Rna</string>
+    <string name="title_activity_expression_of_genetic_info">Expression Of Genetic Info</string>
+    <string name="title_activity_genetic_variation">Genetic Variation</string>
+    <string name="title_activity_chemical_signaling">Chemical Signaling</string>
+    <string name="title_activity_results_of_signaling">Results of Signaling</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_interactions_to_properties1">InteractionsToProperties1</string>
+    <string name="title_activity_interactions_to_properties2">Interactions To Properties 2</string>
+    <string name="title_activity_competition_and_cooperation">Competition And Cooperation</string>
+    <string name="title_activity_diversity">Diversity</string>
+</resources>

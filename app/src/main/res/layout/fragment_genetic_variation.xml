@@ -1,0 +1,186 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.GeneticVariation$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text = "Genetic information is a set of instructions necessary for the survival,
+growth and reproduction of an organism. In order for the information
+to be useful, it needs to be processed by the cell. Processing includes
+replication, decoding and transfer of the information. When genetic
+information changes, either through natural processes or genetic
+engineering, the results may be observable changes in the organism. At
+the molecular level, these changes may be the result of mutations in the
+genetic material, the effects of which may be seen when the information
+is processed to yield a nucleic acid or a polypeptide. The processes of
+transcription, mRNA processing and translation are imperfect, and
+errors can occur and may, in certain cases, alter phenotypes. However,
+these errors are random and are not heritable except in the case of RNA
+viruses where the random errors change the genetic information of the
+virus. External factors in the environment can affect the degree of, or
+the potential for increased probability for, errors in the information and
+processing. Cellular mechanisms that usually correct errors have evolved.
+Genetic variations at the genome level, when expressed as phenotypes, are
+subject to natural selection.
+\n\nSince all organisms, as well as viruses, exist in a dynamic environment,
+mechanisms that increase genetic variation are vital for a species’ ability
+to adapt to a changing environment. In a meiotic organism, the transfer
+process, whereby each gamete receives one set of chromosomes, ensures
+that this set is unique and different from that of the parent. Random
+processes such as the transposition of DNA regions (“jumping genes”)
+occur in all biological domains. Bacteria divide by binary fission and
+do not have the random assortment processes that occur in eukaryotic
+organisms. Nonetheless, mechanisms have evolved in bacteria that
+ensure genetic variation beyond the variation that is introduced through
+normal DNA metabolism, e.g., replication, repair, and recombination.
+Bacterial genetic information can be transmitted or exchanged laterally
+through a variety of processes, including conjugation, transduction, and
+transformation. This type of exchange yields rapid dissemination of new
+phenotypes within and between bacterial populations, allowing for rapid
+evolution.
+\n\nThe basic structure of viruses includes a protein capsid that surrounds
+and protects the genetic information (genome) that can be either DNA or
+RNA. Viruses have a mechanism of replication that is dependent on the
+host metabolic machinery to produce necessary viral components and
+viral genetic material. Some classes of viruses use RNA without a DNA
+intermediate; however, retroviruses, such as HIV, use a DNA intermediate
+for replication of their genetic material. Some viruses introduce variation
+into the host genetic material. When the host is bacterial, it is referred to as
+lysogenesis; whereas in eukaryotic cells, this is referred to as transformation.
+Since viruses use the host metabolic pathways, they experience the
+same potential as the host for genetic variation that results from DNA
+metabolism."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="a. Alterations in a DNA sequence can lead to changes in the type or
+amount of the protein produced and the consequent phenotype.
+\n1. DNA mutations can be positive, negative or neutral based on
+the effect or the lack of effect they have on the resulting nucleic
+acid or protein and the phenotypes that are conferred by the
+protein.
+\n\nb. Errors in DNA replication or DNA repair mechanisms, and
+external factors, including radiation and reactive chemicals, can
+cause random changes, e.g., mutations in the DNA.
+\n1. Whether or not a mutation is detrimental, beneficial or neutral
+depends on the environmental context. Mutations are the
+primary source of genetic variation.
+\n\nc. Errors in mitosis or meiosis can result in changes in phenotype.
+\n1. Changes in chromosome number often result in new
+phenotypes, including sterility caused by triploidy and
+increased vigor of other polyploids.
+\n2. Changes in chromosome number often result in human
+disorders with developmental limitations, including Trisomy 21
+(Down syndrome) and XO (Turner syndrome).
+\n\nd. Changes in genotype may affect phenotypes that are subject to
+natural selection. Genetic changes that enhance survival and
+reproduction can be selected by environmental conditions. For example, antibiotic resistance mutations in DNA can code for enzymes that aren’t affected by antibiotics.
+\n1. Selection results in evolutionary change."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. The imperfect nature of DNA replication and repair increases
+variation.
+\n\nb. The horizontal acquisitions of genetic information primarily
+in prokaryotes via transformation (uptake of naked DNA),
+transduction (viral transmission of genetic information),
+conjugation (cell-to-cell transfer), and transposition (movement
+of DNA segments within and between DNA molecules) increase
+variation.
+\n\nc. Sexual reproduction in eukaryotes involving gamete formation,
+including crossing-over during meiosis and the random assortment
+of chromosomes during meiosis, and fertilization serve to increase
+variation. Reproduction processes that increase genetic variation
+are evolutionarily conserved and are shared by various organisms.
+"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="a. Viral replication differs from other reproductive strategies and
+generates genetic variation via various mechanisms.
+\n1. Viruses have highly efficient replicative capabilities that allow
+for rapid evolution and acquisition of new phenotypes.
+\n2. Viruses replicate via a component assembly model allowing
+one virus to produce many progeny simultaneously via the lytic
+cycle.
+\n3. Virus replication allows for mutations to occur through usual
+host pathways.
+\n4. RNA viruses lack replication error-checking mechanisms, and
+thus have higher rates of mutation.
+\n5. Related viruses can combine/recombine information if they
+infect the same host cell.
+\n6. HIV is a well-studied system where the rapid evolution of a
+virus within the host contributes to the pathogenicity of viral
+infection.
+\n\nb. The reproductive cycles of viruses facilitate transfer of genetic
+information.
+\n1. Viruses transmit DNA or RNA when they infect a host cell. For example, bacterial transduction is the process in which a virus that contains some bacterial DNA or RNA infecting another bacteria, therefore transmitting the genetic information of the other bacteria to the new host (which does not get infected by the virus, because the virus is instead carrying the DNA or RNA of other bacteria, instead of the malicious DNA/RNA of a normal virus).
+\n2. Some viruses are able to integrate into the host DNA and
+establish a latent (lysogenic) infection. These latent viral
+genomes can result in new properties for the host such as
+increased pathogenicity in bacteria.
+"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

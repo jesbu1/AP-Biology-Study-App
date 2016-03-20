@@ -1,0 +1,152 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.TimingAndCoordination$SummaryFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="50dp">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text = "Multiple mechanisms regulate the timing and coordination of molecular,
+physiological and behavioral events that are necessary for an organism’s
+development and survival. Cell differentiation results from the expression of
+genes for tissue-specific proteins, and the induction of transcription factors
+during development results in sequential gene expression. Cell differentiation
+also results from specific silencing of gene expression. For example, homeotic
+genes determine developmental patterns and sequences, and temperature
+and water availability determine seed germination in most plants. Genetic
+transplantation experiments support the link between gene expression,
+mutations and development. Programmed cell death (apoptosis) plays a role
+in normal development and differentiation (e.g., morphogenesis).
+\n\nPhysiological events in organisms can involve interactions between
+environmental stimuli and internal molecular signals; phototropism and
+photoperiodism in plants and circadian rhythms and seasonal responses in
+animals are examples.
+\n\nTiming and coordination of behavior are also regulated by several means;
+individuals can act on information and communicate it to others, and
+responses to information are vital to natural selection. Examples include
+behaviors in animals triggered by environmental cues (hibernation,
+migration and estivation), courtship rituals and other visual displays, and
+photoperiodism in plants due to changes in critical night length.
+\n\nCommunication and cooperative behavior within or between populations
+contributes to the survival of individuals and the population. For example,
+changes in resource availability can lead to fruiting body formation in
+certain bacteria and fungi and niche partitioning.
+"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16dp"
+            android:typeface="sans" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="• Observable cell differentiation results from the expression of genes
+for tissue-specific proteins.
+\n• Induction of transcription factors during development results in
+sequential gene expression. Examples include:
+\n1. Homeotic genes are involved in developmental patterns and
+sequences.
+\n2. Embryonic induction in development results in the correct
+timing of events.
+\n3. Temperature and the availability of water determine seed
+germination in most plants.
+\n4. Genetic mutations can result in abnormal development.
+\n5. Genetic transplantation experiments support the link between
+gene expression and normal development.
+\n6. Genetic regulation by microRNAs plays an important role
+in the development of organisms and the control of cellular
+functions.
+\n• Programmed cell death (apoptosis) plays a role in the normal
+development and differentiation. Morphogenesis of fingers and toes is the process of apoptosis of the webbing between fingers and toes during the development of a fetus so that the baby has completely motile fingers and toes. Failure of apoptosis results in a condition of webbed feet and toes in some people.
+"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16dp"
+            android:typeface="sans" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:textColor="@color/colorPrimaryText"
+            android:text="• In plants, physiological events involve interactions between
+environmental stimuli and internal molecular signals. Examples include:
+\n1. Phototropism, or the response to the presence of light
+\n2. Photoperiodism, or the response to change in length of the
+night, that results in flowering in long-day and short-day plants
+\n• In animals, internal and external signals regulate a variety of
+physiological responses that synchronize with environmental cycles
+and cues. For example, circadian rhythms are present in all eukaryotes, which synchronize the internal clock of the organism with that of the environment. An extremely quick environmental change like flying across the world can cause this to go out of sync, causing jet lag in humans. Other examples include hibernation, estivation, migration, and visual displays and chemical pheromones in the reproductive cycle.
+\n• In fungi, protists and bacteria, internal and external signals
+regulate a variety of physiological responses that synchronize with
+environmental cycles and cues. For example, quorum sensing in bacteria is a process in which bacteria can detect the amount of nearby bacteria by having receptors for molecules excreted by other bacteria of the same species. Once this reaches a certain amount, they can coordinate a process like releasing toxins to attack the host.
+"/>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        card_view:cardElevation="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:textColor="@color/colorPrimaryText"
+            android:text="• Individuals can act on information and communicate it to others.
+\n1. Innate behaviors are behaviors that are inherited.
+\n2. Learning occurs through interactions with the environment and
+other organisms.
+\n• Responses to information and communication of information are
+vital to natural selection.
+\n1. In phototropism in plants, changes in the light source lead to
+differential growth, resulting in maximum exposure of leaves to
+light for photosynthesis.
+\n2. In photoperiodism in plants, changes in the length of night
+regulate flowering and preparation for winter.
+\n3. Behaviors in animals are triggered by environmental cues and
+are vital to reproduction, natural selection and survival. For example, hibernation, migration, or courtship behaviors.
+\n4. Cooperative behavior within or between populations
+contributes to the survival of the populations. For example, quorum sensing as discussed earlier, or mutualistic relationships such as the bacteria that live in your body right now that help you digest food. Both those bacteria and you benefit because they gain nutrients from what you eat and they help you digest and process food you couldn’t otherwise.
+"/>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,160 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.example.jesse.apbiologystudyappv2.SeparationOfEnvironment$SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text = "Cell membranes separate the internal environment of the cell from the
+external environment. The specialized structure of the membrane described
+in the fluid mosaic model allows the cell to be selectively permeable, with
+dynamic homeostasis maintained by the constant movement of molecules
+across the membrane. Passive transport does not require the input of
+metabolic energy because spontaneous movement of molecules occurs
+from high to low concentrations; examples of passive transport are osmosis,
+diffusion, and facilitated diffusion. Active transport requires metabolic energy
+and transport proteins to move molecules from low to high concentrations
+across a membrane. Active transport establishes concentration gradients
+vital for dynamic homeostasis, including sodium/potassium pumps in nerve
+impulse conduction and proton gradients in electron transport chains in
+photosynthesis and cellular respiration. The processes of endocytosis and
+exocytosis move large molecules from the external environment to the internal
+environment and vice versa, respectively.
+\n\nEukaryotic cells also maintain internal membranes that partition the cell
+into specialized regions so that cell processes can operate with optimal
+efficiency by increasing beneficial interactions, decreasing conflicting
+interactions and increasing surface area for chemical reactions to occur.
+Each compartment or membrane-bound organelle localizes reactions,
+including energy transformation in mitochondria and production of
+proteins in rough endoplasmic reticulum.
+"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="• Cell membranes separate the internal environment of the cell from
+the external environment.
+\n• Selective permeability is a direct consequence of membrane
+structure, as described by the fluid mosaic model.
+1. Cell membranes consist of a structural framework of
+phospholipid molecules, embedded proteins, cholesterol,
+glycoproteins and glycolipids.
+2. Phospholipids give the membrane both hydrophilic and
+hydrophobic properties. The hydrophilic phosphate portions of
+the phospholipids are oriented toward the aqueous external or
+internal environments, while the hydrophobic fatty acid portions
+face each other within the interior of the membrane itself.
+3. Embedded proteins can be hydrophilic, with charged and polar
+side groups, or hydrophobic, with nonpolar side groups.
+4. Small, uncharged polar molecules and small nonpolar
+molecules, such as , freely pass across the membrane.
+Hydrophilic substances such as large polar molecules and
+ions move across the membrane through embedded channel
+and transport proteins. Water moves across membranes and
+through channel proteins called aquaporins.
+\n• Cell walls provide a structural boundary, as well as a permeability
+barrier for some substances to the internal environments.
+1. Plant cell walls are made of cellulose and are external to the cell
+membrane.
+2. Other examples are cells walls of prokaryotes and fungi."
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="•  Passive transport does not require the input of metabolic energy;
+the net movement of molecules is from high concentration to low
+concentration.
+1. Passive transport plays a primary role in the import of
+resources and the export of wastes.
+2. Membrane proteins play a role in facilitated diffusion of
+charged and polar molecules through a membrane.
+3. External environments can be hypotonic, hypertonic or isotonic
+to internal environments of cells.
+\n•  Active transport requires free energy to move molecules from
+regions of low concentration to regions of high concentration.
+1. Active transport is a process where free energy (often provided
+by ATP) is used by proteins embedded in the membrane to
+“move” molecules and/or ions across the membrane and to
+establish and maintain concentration gradients.
+2. Membrane proteins are necessary for active transport.
+\n•  The processes of endocytosis and exocytosis move large molecules
+from the external environment to the internal environment and
+vice versa, respectively.
+1. In exocytosis, internal vesicles fuse with the plasma membrane
+to secrete large macromolecules out of the cell.
+2. In endocytosis, the cell takes in macromolecules and particulate
+matter by forming new vesicles derived from the plasma
+membrane.
+"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="8dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardElevation="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="@color/colorPrimaryText"
+                android:text="•  Internal membranes facilitate cellular processes by minimizing
+competing interactions and by increasing surface area where
+reactions can occur.
+\n•  Membranes and membrane-bound organelles in eukaryotic cells
+localize (compartmentalize) intracellular metabolic processes and
+specific enzymatic reactions. For example, the mitochondria are membrane-bound organelles, which have their own enzymatic reactions and processes.
+\n•  Archaea and Bacteria generally lack internal membranes and
+organelles and have a cell wall."/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
