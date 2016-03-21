@@ -26,7 +26,7 @@ public class ExpressionOfGeneticInfo extends AppCompatActivity {
     public ArrayList<String> arrayOfAnswers = new ArrayList<String>() {{
         add("Promoters");
         add("Terminators");
-        add("Enhancers");
+        add("Activators");
         add("All of the above");
         add("A type of transcription factor that assists in DNA replication");
         add("A gene that regulates other genes");

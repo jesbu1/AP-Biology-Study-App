@@ -82,6 +82,16 @@ public class fragment_quiz extends Fragment {
         });
         correct_incorrect.setVisibility(correct_incorrect.INVISIBLE);
         radioGroup = (RadioGroup) view.findViewById(R.id.radio_group);
+        //If just yes/no or T/F question, then set the last two buttons as invisible
+        if (array_of_answers.get(2) == "") {
+            radioButton3.setVisibility(View.INVISIBLE);
+        } else if (array_of_answers.get(2) == " ") {
+            radioButton3.setVisibility(View.INVISIBLE);
+        } if (array_of_answers.get(3) == ""){
+            radioButton4.setVisibility(View.INVISIBLE);
+        } else if (array_of_answers.get(3) == " "){
+            radioButton4.setVisibility(View.INVISIBLE);
+        }
 
     }
 
@@ -95,6 +105,19 @@ public class fragment_quiz extends Fragment {
         radioButton2.setText(array_of_answers.get(i + 1));
         radioButton3.setText(array_of_answers.get(i + 2));
         radioButton4.setText(array_of_answers.get(i + 3));
+        //Once again, check if you need to set buttons as invisible or invisible. Else, set 3 and 4 visible again
+        if (array_of_answers.get(i + 2) == "") {
+            radioButton3.setVisibility(View.INVISIBLE);
+        } else if (array_of_answers.get(i + 2) == " ") {
+            radioButton3.setVisibility(View.INVISIBLE);
+        } if (array_of_answers.get(i + 3) == ""){
+            radioButton4.setVisibility(View.INVISIBLE);
+        } else if (array_of_answers.get(i + 3) == " "){
+            radioButton4.setVisibility(View.INVISIBLE);
+        } else {
+            radioButton3.setVisibility(View.VISIBLE);
+            radioButton4.setVisibility(View.VISIBLE);
+        }
 
     }
 
